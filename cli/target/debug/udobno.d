@@ -1,0 +1,1 @@
+/home/albagdad/src/rust/udobno/target/debug/udobno: /home/albagdad/src/rust/udobno/src/go/mod.rs /home/albagdad/src/rust/udobno/src/go/parser.rs /home/albagdad/src/rust/udobno/src/go/utils.rs /home/albagdad/src/rust/udobno/src/main.rs

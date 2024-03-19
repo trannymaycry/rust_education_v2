@@ -1,0 +1,27 @@
+# [profile]
+# inherits = "release"
+# debug = true
+# split-debuginfo = "packed"
+
+[workspace]
+members = [
+    "cli",
+    "utils-types"
+]
+
+[workspace.package]
+name = "udobno"
+description = "Blockchain research tool"
+version = "0.0.0"
+authors = ["slut"]
+# repository = "https://github.com/solana-labs/solana"
+homepage = "https://127.0.0.1:8080/"
+license = "Apache-2.0"
+edition = "2021"
+
+[workspace.dependencies]
+clap = "2.33.1"
+rustc_version = "0.4.0"
+thiserror =  "1.0.57"
+udobno-help-utils = { path = "utils-types" }
+

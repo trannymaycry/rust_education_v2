@@ -1,0 +1,19 @@
+[package]
+name = "udobno-help-utils"
+description = "help utils"
+version = { workspace = true }
+authors = { workspace = true }
+# repository = { workspace = true }
+homepage = { workspace = true }
+license = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+clap = { workspace = true }
+thiserror = { workspace = true }
+serde = { version = "1.0.197", features = ["derive"] }
+
+[lib]
+crate-type = ["lib"]
+name = "udobno_help_utils"
+

@@ -1,0 +1,15 @@
+[package]
+name = "udobno"
+version = { workspace = true }
+edition = { workspace = true }
+homepage = { workspace = true }
+license = { workspace = true }
+authors = { workspace = true }
+description = "Cli for blockchain research tool"
+# repository = { workspace = true }
+
+[dependencies]
+clap = { workspace = true }
+udobno-help-utils = { workspace = true }
+
+
